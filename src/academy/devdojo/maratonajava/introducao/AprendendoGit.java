@@ -4,5 +4,6 @@ public class AprendendoGit {
 
     public static void main(String[] args) {
         System.out.println("Aprendendo a Commitar atualizacoes pelo IntelliJ");
+        System.out.println("Alteracao 2");
     }
 }
