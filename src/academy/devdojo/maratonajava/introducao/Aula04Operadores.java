@@ -90,7 +90,7 @@ public class Aula04Operadores {
         System.out.println(++contador); // antes da variavel faz somar antes da solicitacao da linha 3+1=4 mostra 4
         System.out.println(contador); // mostra 4 novamente
         --contador; // Contador 4 - 1 = 3
-        System.out.println(contador);
+        System.out.println(contador); // Mostra o resultado 3
 
 
     }
