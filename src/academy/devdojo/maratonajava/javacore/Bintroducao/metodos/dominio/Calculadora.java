@@ -5,11 +5,11 @@ public class Calculadora {
     // void // RETORNO VAZIO
     // NOME DO METODO
 
-    public void somaDoisNumeros() {
+    public void somaDoisNumeros() { //METODO
         System.out.println(10 + 10);
     }
 
-    public void subtraiaDoisNumeros() {
+    public void subtraiaDoisNumeros() { // METODO SENDO CRIADO
         System.out.println(21 - 2);
     }
 
@@ -24,10 +24,10 @@ public class Calculadora {
         return num01 / num02; // O INT É UM CAST FORCANDO O DOUBLE A VIRAR INT
     }
 
-    public void imprimeDivisaoDeDoisNumeros(double num3, double num4) { // SÓ EXECUTARA ESSE METODO SE(ELSE) A EXPRESSAO
+    public void imprimeDivisaoDeDoisNumeros(double num3, double num4) {  // SÓ EXECUTARA ESSE METODO SE(ELSE) A EXPRESSAO
         if (num4 == 0) {                                                // FOR FALSA, SE VERDADEIRA RETORNA 0 E PRINTA
             System.out.println("Nao existe divisao por zero");         // SE FOR FALSA ENTRA NO ELSE E DIVIDE
-        } else {                                                         // USADO PARA METODOS VOID
+        } else {                                                      // USADO PARA METODOS VOID
             System.out.println(num3 / num4);
         }
     }
