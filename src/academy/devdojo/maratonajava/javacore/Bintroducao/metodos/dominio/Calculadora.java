@@ -23,4 +23,30 @@ public class Calculadora {
         }
         return num01 / num02; // O INT É UM CAST FORCANDO O DOUBLE A VIRAR INT
     }
+
+    public void imprimeDivisaoDeDoisNumeros(double num3, double num4) { // SÓ EXECUTARA ESSE METODO SE(ELSE) A EXPRESSAO
+        if (num4 == 0) {                                                // FOR FALSA, SE VERDADEIRA RETORNA 0 E PRINTA
+            System.out.println("Nao existe divisao por zero");         // SE FOR FALSA ENTRA NO ELSE E DIVIDE
+        } else {                                                         // USADO PARA METODOS VOID
+            System.out.println(num3 / num4);
+        }
+    }
+
+    public void imprimeDivisaoDeDoisNumerosReturn(double num5, double num6) { // SÓ EXECUTARA ESSE METODO SE(ELSE) A EXPRESSAO
+        if (num6 == 0) {                                               // FOR FALSA, SE VERDADEIRA RETORNA 0 E PRINTA
+            System.out.println("Nao existe divisao por zero");        // SE FOR FALSA ENTRA NO ELSE E DIVIDE
+            return;                                                  // USADO PARA METODOS VOID// USADO O RETURN PARA PARAR
+        }
+        System.out.println(num5 / num6);
+
+    }
+
+    public void alteraDoisNumeros(int num1, int num2) {
+        num1 = 99;
+        num2 = 33;
+        System.out.println("Dentro do alteraDoisNumeros na Calculadora definido os atributos");
+        System.out.println("Num1 " + num1);
+        System.out.println("Num2 " + num2);
+    }
 }
+
