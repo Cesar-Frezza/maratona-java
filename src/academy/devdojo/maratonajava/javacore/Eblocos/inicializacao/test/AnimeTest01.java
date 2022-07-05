@@ -14,7 +14,5 @@ public class AnimeTest01 {
         for (int ep2 : anime1.getEpisodios()) { //UTILIZADO ATALHO COM ALT+ENTER OPCAO INTERATE
             System.out.print(ep2 + " ");        // EXECUTADO EM SEGUNDO
         }
-
-
     }
 }
